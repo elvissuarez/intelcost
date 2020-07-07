@@ -103,7 +103,7 @@ video#vidFondo {
   background-color: #F2F2F2;
   display: flex;
   flex-flow: row wrap;
-  
+
   padding: 5px;
 }
 .tituloContenido h5{
@@ -142,4 +142,39 @@ video#vidFondo {
 }
 .card-action{
   text-align: right;
+}
+
+.bienes{
+  width: 100%;
+}
+
+.bienes .column-left{
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.bienes .column-right{
+  float: left;
+  width: 60%;
+  padding: 10px;
+}
+
+.bienes .column-left img{
+  width: 100%;
+}
+
+.bien-info{
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.bien-row .bien-label{
+  display: inline;
+  font-weight: bold;
+}
+
+.bien-row .bien-data{
+  margin-left: 10px;
+  float: right;
 }
